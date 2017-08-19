@@ -9,5 +9,21 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "backgroundColor": "#FFFFFE",
+      "borderStyle": "#D3D3D3",
+      "selectedColor": "#D03232",
+      "color": "#131313",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "Form"
+        },
+        {
+          "pagePath": "pages/form/form",
+          "text": "Form"
+        }
+      ]
+    }
   }
-}
