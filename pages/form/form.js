@@ -8,6 +8,22 @@ Page({
   data: {
     userInfo: {}
   },
+  bindFormSubmit: function (e) {
+  var fml = e.detail.value.fml
+  wx.setStorage({
+    key: "01",
+    data: {
+      user_name: this.userInfo,
+      post: fml,
+    },
+  })
+  var showStorage = wx.getStorage({
+    key: '01',
+    success: function(res) {
+      console.log(res);
+    },
+  })
+  },
 
   /**
    * 生命周期函数--监听页面加载
