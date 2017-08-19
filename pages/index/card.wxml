@@ -1,0 +1,3 @@
+<template name="card" id="">
+<button type="primary" bindtap="add">Incrementation: {{count}}</button>
+</template>

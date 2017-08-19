@@ -3,8 +3,14 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
+    count: 0,
     userInfo: {}
+  },
+  add: function (e) {
+    var that = this
+    that.setData({
+      count: that.data.count + 1
+    })
   },
   //事件处理函数
   bindViewTap: function() {

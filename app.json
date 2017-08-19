@@ -18,11 +18,11 @@
       "list": [
         {
           "pagePath": "pages/index/index",
-          "text": "Form"
+          "text": "FMLs"
         },
         {
           "pagePath": "pages/form/form",
-          "text": "Form"
+          "text": "Submit an FML"
         }
       ]
     }
