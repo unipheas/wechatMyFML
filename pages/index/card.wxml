@@ -1,3 +1,5 @@
 <template name="card" id="">
-<button type="primary" bindtap="add">Incrementation: {{count}}</button>
+<text>{{username}}</text>
+<text>{{post}}</text>
+<button type="primary" bindtap="add">Liked: {{count}}</button>
 </template>

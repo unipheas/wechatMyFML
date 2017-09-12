@@ -3,7 +3,15 @@
 var app = getApp()
 Page({
   data: {
-    count: 0,
+    mock_data: [{
+      count: 1,
+      username: "test",
+      post: "testing"
+    },{
+      count: 2,
+      username: "afd",
+      post: "asdf"
+    }],
     userInfo: {}
   },
   add: function (e) {

@@ -1,6 +1,6 @@
 <import src="card.wxml"/>
 
-<view class="container">
-<template is="card" data="{{count}}"/>
+<view class="container" wx:for="{{mock_data}}">
+  <template is="card" data="{{count: item.count, username: item.username, post: item.post}}"/>
 </view>
 
