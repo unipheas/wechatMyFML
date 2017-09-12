@@ -1,6 +1,19 @@
 <import src="card.wxml"/>
 
+<<<<<<< HEAD
 <view class="container" wx:for="{{mock_data}}">
   <template is="card" data="{{count: item.count, username: item.username, post: item.post}}"/>
+=======
+<view wx:for="{{mock_data}}">
+<template is="card" data="{{mock_data}}"/>
+>>>>>>> d88ba50af87b056a910f08877b3b58524b590db5
 </view>
-
+<!-- 
+<block wx:for="{{forms}}" wx:for-item="form" wx:key="objectId">
+ <text data-id="{{form.objectId}}" >
+  {{form.review}}
+ </text>
+ <text>
+  - {{form.name}}
+ </text>
+</block> -->

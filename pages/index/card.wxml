@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <template name="card" id="">
 <text>{{username}}</text>
 <text>{{post}}</text>
 <button type="primary" bindtap="add">Liked: {{count}}</button>
 </template>
+=======
+>>>>>>> d88ba50af87b056a910f08877b3b58524b590db5
